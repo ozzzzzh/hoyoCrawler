@@ -8,6 +8,8 @@ import re
 import mysql.connector
 from datetime import datetime
 
+import dataStorage
+
 # 设置Chrome浏览器为无头模式
 options = Options()
 options.add_argument('--headless')
